@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color">
+
+    <com.xby.customrecyclerviewhistogram.ChartColumnarView
+        android:id="@+id/chartview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/cl_test1"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="5dp"
+        app:bgcolor="@color/back_color"
+        app:linecolor="@color/main_orange" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/cl_test1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="36dp"
+        android:background="@color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/cl_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/v_dg"
+            android:layout_width="25dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/item_chart" />
+
+        <TextView
+            android:id="@+id/tv_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/v_dg"
+            android:text="收入(元)"
+            android:textColor="@color/text_color_c1" />
+
+        <View
+            android:id="@+id/v_string"
+            android:layout_width="25dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/tv_10"
+            android:background="@color/back_color2" />
+
+        <TextView
+            android:id="@+id/tv_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/v_string"
+            android:text="完成订单数(单)"
+            android:textColor="@color/text_color_c1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

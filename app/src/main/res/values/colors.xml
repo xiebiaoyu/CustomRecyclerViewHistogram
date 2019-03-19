@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="money_pa">#A3C2F9</color>
+    <color name="main_column">#FCFF00</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_blue">#3F84FF</color>
+    <color name="item_chart">#75A5FB</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="text_color_c1">#333333</color>
+    <color name="text_color_c2">#666666</color>
+    <color name="back_color2">#FF7133</color>
+    <color name="main_blue">#3F84FF</color>
+    <color name="main_orange">#FF7133</color>
+    <color name="back_color">#F5F5F5</color>
+</resources>

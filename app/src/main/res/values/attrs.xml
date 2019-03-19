@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="chartView">
+        <attr name="xylinecolor" />
+        <attr name="xylinewidth" />
+        <attr name="xytextcolor" />
+        <attr name="xytextsize" />
+        <attr name="linecolor" />
+        <attr name="interval" />
+        <attr name="bgcolor" />
+        <attr name="isScroll" />
+    </declare-styleable>
+</resources>
